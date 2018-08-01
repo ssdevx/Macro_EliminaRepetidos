@@ -5,8 +5,6 @@ Sub EliminarRepetidos()
     Set ws = ActiveSheet
     Row = 1
     
-    
-    
     'Apagar visualización de saltos de página
     ActiveSheet.DisplayPageBreaks = False
     
@@ -26,7 +24,6 @@ Sub EliminarRepetidos()
     'Se maximiza cuando termine el while
     ActiveWindow.WindowState = xlMaximized
      Application.ScreenUpdating = True
-    ActiveSheet.DisplayPageBreaks = True
-    
+    ActiveSheet.DisplayPageBreaks = True 
 
 End Sub
